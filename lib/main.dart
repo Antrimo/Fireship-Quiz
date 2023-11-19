@@ -12,7 +12,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(title: const Text('Quiz Fireship.io')),
+        appBar: AppBar(title: const Center(child: Text('Quiz Fireship.io'))),
+        body: const Center(
+          child: Icon(
+            Icons.face,
+            size: 100.0,
+            color: Colors.blue,
+          ),
+        ),
       ),
     );
   }
